@@ -14,6 +14,10 @@ public class characterMovement : MonoBehaviour
     private Vector3 normalizedDirection;
     private Rigidbody rb;
     private Animator anim;
+
+
+    [SerializeField] Transform playerCamera;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -25,12 +29,10 @@ public class characterMovement : MonoBehaviour
     {
         // Inputs y animaciones de movimiento
 
-        moveH = Input.GetAxisRaw("Horizontal");
-        moveV = Input.GetAxisRaw("Vertical");
+        float moveH = Input.GetAxisRaw("Horizontal");
+        float moveV = Input.GetAxisRaw("Vertical");
 
-        playerMovementX = new Vector3(moveH, 0f, 0f);
-        playerMovementZ = new Vector3(0f, 0f, moveV);
-        playerMovement = playerMovementX + playerMovementZ;
+        playerMovement = moveV * playerCamera.forward + moveH * playerCamera.right;
 
         if (playerMovement.magnitude > 0.1f )
         {
@@ -68,10 +70,16 @@ public class characterMovement : MonoBehaviour
     {
         if (playerMovement.magnitude > 0.1f)
         {
-            normalizedDirection = playerMovement.normalized;   
+            normalizedDirection = playerMovement.normalized;
+            normalizedDirection.y = 0;
             rb.MovePosition(rb.position + normalizedDirection * playerSpeed * Time.fixedDeltaTime);
+
+
             rotationMovement = Quaternion.LookRotation(normalizedDirection);
+            
             Quaternion smoothRotation = Quaternion.RotateTowards(rb.rotation, rotationMovement, rotationSpeed * Time.fixedDeltaTime);
+
+   
             rb.MoveRotation(smoothRotation);
         }
     }
