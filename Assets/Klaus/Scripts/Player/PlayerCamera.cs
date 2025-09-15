@@ -6,7 +6,7 @@ public class PlayerCamera : MonoBehaviour
     [SerializeField] Transform playerCameraTarget;
     [SerializeField] Transform playerCamera;
 
-    [SerializeField] private float cameraSensitivity = 50f;
+    [SerializeField] private float cameraSensitivity = 45f;
 
     private float mouseX;
 

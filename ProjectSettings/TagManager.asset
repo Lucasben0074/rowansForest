@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - caja
+  - floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - floor
   - Water
   - UI
   - 

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|e:\\proyectos unity\\proyectos\\rowansforest-md1\\assets\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|solutionrelative:assets\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\assets\\thirdpersonshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|solutionrelative:assets\\thirdpersonshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\assets\\klaus\\scripts\\player\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC03006C-15CA-A3A0-52F1-3DD519693510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\proyectos unity\\proyectos\\rowansforest-md1\\assets\\enablecrosshair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\enablecrosshair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "characterMovement.cs",
-              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\characterMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\characterMovement.cs",
-              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\characterMovement.cs",
-              "RelativeToolTip": "Assets\\characterMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Title": "AdditionalLightsShadowCasterPass.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@dd24be0d7cf1\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAMwKsBAABXAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T01:48:00.805Z",
+              "WhenOpened": "2025-09-15T00:05:27.25Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "enableCrosshair.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\enableCrosshair.cs",
+              "RelativeDocumentMoniker": "Assets\\enableCrosshair.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\enableCrosshair.cs",
+              "RelativeToolTip": "Assets\\enableCrosshair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T23:21:40.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "thirdPersonShooting.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\thirdPersonShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\thirdPersonShooting.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\thirdPersonShooting.cs",
+              "RelativeToolTip": "Assets\\thirdPersonShooting.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T23:02:40.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "characterMovement.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\Scripts\\characterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\characterMovement.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\Scripts\\characterMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\characterMovement.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T22:21:04.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCamera.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\Klaus\\Scripts\\Player\\PlayerCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\PlayerCamera.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\RowansForest-MD1\\Assets\\Klaus\\Scripts\\Player\\PlayerCamera.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\PlayerCamera.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T22:21:08.831Z"
             }
           ]
         }
